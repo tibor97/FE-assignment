@@ -1,0 +1,26 @@
+.main-container {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: $white;
+	padding-right: 30px;
+	padding-left: 30px;
+	background-color: transparent;
+
+	@include max-mq ($max-tablet) {
+		max-width: inherit;
+	}
+
+	@include max-mq($max-mobile) {
+	 	padding-right: 20px;
+		padding-left: 20px;
+	}
+}
+
+.main-container-header {
+	@include max-mq($max-mobile) {
+		padding-right: 0;
+		padding-left: 20px;
+		position: relative;
+	}
+}

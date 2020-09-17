@@ -1,0 +1,21 @@
+// import utilities files
+@import 'utilities/mixins';
+@import 'utilities/variables';
+
+// import general files
+@import 'general/reset';
+@import 'general/content';
+@import 'general/fonts';
+
+// import elements files
+@import 'elements/headings';
+@import 'elements/buttons';
+
+// import section files
+@import 'sections/header-section';
+@import 'sections/hero-section';
+@import 'sections/portfolio-section';
+@import 'sections/footer-section';
+
+//import partials files
+@import 'partials/icons';

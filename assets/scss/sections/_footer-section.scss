@@ -1,0 +1,75 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-section-wrapper {
+    border-top: 1px solid $secondary-color-3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+     @include max-mq($max-mobile) {
+        justify-content: center;
+    }
+}
+
+.copyright-wrapper {
+    flex: 1 1 50%;
+
+    @include max-mq($max-mobile) {
+        flex: 1 1 100%;
+    }
+
+    p {
+        display: flex;
+        font-size: 10px;
+        color: $secondary-color-1;
+
+        @include max-mq($max-mobile) {
+            justify-content: center;
+            padding: 9px 0;
+        }
+    }
+
+    .icon-copyright {
+        margin-right: 5px;
+    }
+}
+
+.footer-icons-wrapper {
+    display: flex;
+    padding: 8px 0 13px;
+    
+    @include max-mq($max-mobile) {
+        padding: 2px 0 13px;
+    }
+}
+
+.icon-wrapper {
+    a {
+        display: flex;
+        border-radius: 50%;
+        font-size: 15px;
+        padding: 5px;
+        color: $white;
+        background-image: repeating-linear-gradient(45deg, $black 0%, $black 2%, $secondary-color-2 2%, $secondary-color-2 10%);
+        color: $white;
+        transition: color $transition-fast;
+        
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+.icon-wrapper-second,
+.icon-wrapper-third {
+    margin-left: 11px;
+}
+
+.wifi-icon-rotate {
+    transform: rotate(45deg);
+}

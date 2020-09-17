@@ -1,0 +1,25 @@
+// Colors
+$primary-color: #53a665; //green color (logo, active state)
+$primary-color-hover: #84be91; //green color for color of hovered el
+$secondary-color-1: #808080; // grey color (hover state, ) 100
+$secondary-color-2: #333; // dark grey color (nav links, separator, stripe for hero-section background) 200
+$secondary-color-3: #b0b0b0; // grey for stripes-hero section background, 300
+$secondary-color-4: #f7f7f7; // light grey for body background, hero-section--left on mobile.. 400
+$white: #fff;
+$black: #000;
+
+// Breakpoints
+$max-tablet: 1024px;
+$max-mobile: 767px;
+
+// Fonts
+$font-family-primary: "Bree Serif", serif;
+$font-family-secondary: "Open Sans", sans-serif;
+
+// Font weight
+$font-weight-regular: 400;
+
+// transitions
+$transition-base: 0.4s ease 0.1s;
+$transition-slow: 1.5s ease 0s;
+$transition-fast: 0.2s ease 0s;
